@@ -12,3 +12,4 @@ Added startup screen color
 
 Unsuccessfully played with Auto-layout
 
+![alt tag](http://url/walkthrough.gif)
