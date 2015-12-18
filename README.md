@@ -12,4 +12,4 @@ Added startup screen color
 
 Unsuccessfully played with Auto-layout
 
-![alt tag](http://url/walkthrough.gif)
+![alt tag](https://github.com/kevgrenn/Tips/blob/master/walkthrough.gif?raw=true)
