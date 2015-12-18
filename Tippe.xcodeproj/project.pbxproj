@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					7CFEDA311C2351E2008182AB = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BUML34KQ45;
 					};
 					7CFEDA451C2351E2008182AB = {
 						CreatedOnToolsVersion = 7.2;
@@ -204,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7CFEDA2D1C2351E2008182AB /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = 7CFEDA2D1C2351E2008182AB /* Build configuration list for PBXProject "Tippe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -397,10 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kg.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +412,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kg.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -466,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7CFEDA2D1C2351E2008182AB /* Build configuration list for PBXProject "tips" */ = {
+		7CFEDA2D1C2351E2008182AB /* Build configuration list for PBXProject "Tippe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7CFEDA581C2351E2008182AB /* Debug */,
@@ -482,6 +489,7 @@
 				7CFEDA5C1C2351E2008182AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFEDA5D1C2351E2008182AB /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +498,7 @@
 				7CFEDA5F1C2351E2008182AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFEDA601C2351E2008182AB /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				7CFEDA621C2351E2008182AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
